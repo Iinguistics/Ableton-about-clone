@@ -66,15 +66,37 @@ nav a{
     margin-top: 10px;
     font-weight: 700;
     line-height: 24px;
+    margin-bottom: 2rem;
 }
 
 
 .mini-nav span{
     color: #ff764d;
     margin-right: 2rem;
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
 }
 
 
-/*
-background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; background-image: url(&quot;https://ableton-production.imgix.net/about/header.jpg?auto=format&amp;dpr=3&amp;fit=crop&amp;fm=jpg&amp;h=692&amp;ixjsv=1.1.3&amp;q=33&amp;w=313&quot;);
-*/
+.header-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('./assets/ableton-image-1.jpg');
+    height: 1184px;
+    width: 1333px;
+    margin: auto;
+}
+
+
+.header-title h6{
+    position: absolute;
+    color: #ff764d;
+    line-height: 24px;
+    font-size: 82px;
+    left: 50%;
+    top: 250px;
+    
+}
+
+
