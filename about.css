@@ -134,7 +134,7 @@ nav a{
     width: 933px;
     background-color:#fbffa7;
     position:absolute;
-    left: 680px;
+    left: 40%;
 }
 
 
@@ -156,7 +156,7 @@ nav a{
     background-image: url('./assets/ableton-image-4.jpg');
     height: 400px;
     width: 533px;
-    left: 980px;
+    left: 55%;
     margin-top: 16rem;
     position: absolute;
     z-index: 1;
