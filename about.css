@@ -102,9 +102,10 @@ nav a{
 
 .header-content{
     margin: auto;
-    max-width: 75%;
+    max-width: 60%;
     margin-top: 7rem;
     margin-bottom: 7rem;
+    text-align: left;
 }
 
 .header-content h1{
@@ -119,4 +120,60 @@ nav a{
 
 .header-content p{
     font-size: 20px;
+}
+
+
+.collage{
+    height: 933px;
+    width: 1600px;
+}
+
+
+.yellow-square{
+    height: 933px;
+    width: 933px;
+    background-color:#fbffa7;
+    position:absolute;
+    left: 680px;
+}
+
+
+.making-music-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./assets/ableton-image-3.jpg');
+    height: 666px;
+    width: 666px;
+    margin-left: 9rem;
+    margin-top: 10rem;
+    position: absolute;
+    vertical-align: middle;
+}
+
+.walking-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./assets/ableton-image-4.jpg');
+    height: 400px;
+    width: 533px;
+    left: 980px;
+    margin-top: 16rem;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.body-content{
+    margin: auto;
+    max-width: 60%;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    text-align: left;
+
+}
+
+.body-content h1{
+    font-weight: 700;
+    line-height: 42px;
+    font-size: 30px;
 }
