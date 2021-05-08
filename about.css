@@ -63,7 +63,7 @@ nav a{
 
 
 .mini-nav{
-    margin-top: 10px;
+    margin-top: 15px;
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 2rem;
@@ -72,9 +72,10 @@ nav a{
 
 .mini-nav span{
     color: #ff764d;
-    margin-right: 2rem;
-    margin-left: 0.8rem;
-    margin-top: 0.8rem;
+}
+
+.mini-nav a{
+    padding: 20px;
 }
 
 
@@ -96,7 +97,26 @@ nav a{
     font-size: 82px;
     left: 50%;
     top: 250px;
-    
 }
 
 
+.header-content{
+    margin: auto;
+    max-width: 75%;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.header-content h1{
+    font-weight: 700;
+    line-height: 42px;
+    font-size: 30px;
+}
+
+.header-content a{
+    color: #0000ff;
+}
+
+.header-content p{
+    font-size: 20px;
+}
