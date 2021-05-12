@@ -51,6 +51,9 @@ nav a{
     flex-grow: 1;
     font-size: 20px;
 }
+.fa-plus{
+    margin-left: .2rem;
+}
 
 
 .live-link{
@@ -177,3 +180,19 @@ nav a{
     line-height: 42px;
     font-size: 30px;
 }
+
+
+.youtube-vid{
+    position: relative;
+}
+
+
+.youtube-vid > i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: blue;
+    font-size: 4rem;
+}
+
+
