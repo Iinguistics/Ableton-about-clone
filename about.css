@@ -177,8 +177,8 @@ nav a{
 
 .body-content h1{
     font-weight: 700;
-    line-height: 42px;
-    font-size: 30px;
+    line-height: 1.5em;
+    font-size: 1.9rem;
 }
 
 
@@ -194,5 +194,67 @@ nav a{
     color: blue;
     font-size: 4rem;
 }
+
+#youtube-vid-caption{
+    line-height: 1.5;
+    font-size: .875rem;
+    margin-top: .5em;
+}
+
+
+.body-content h3{
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 1.87rem;
+    margin-bottom: .7em;
+}
+
+
+.body-content p{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+
+.page-about__collage--people {
+    padding: 8.33333vw;
+}
+
+.page-about__collage {
+    position: relative;
+}
+.page-about__text, .page-about__collage, .page-about__media {
+    margin-bottom: 8.33333vw;
+}
+
+
+.page-about__collage--people .page-about__collage__background {
+    width: 58.33333vw;
+    height: 75vw;
+    left: 0;
+}
+
+
+.page-about__collage__background {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.bg-spearmint {
+    background-color: #B6FFC0;
+}
+
+
+.page-about__collage__media, .page-about__collage__container {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+}
+
+
+
 
 
